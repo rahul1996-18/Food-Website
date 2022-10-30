@@ -1,0 +1,226 @@
+*{
+   margin : 0;
+   padding: 0;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+#logo{
+    margin :10px 14px;
+
+
+}
+#logo img{
+    height:50px;
+    margin: 5px 8px
+}
+#navbar ul{
+    display: flex;
+    
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index:-1;
+    opacity: 0.3;
+}
+#navbar ul li{
+
+    list-style-type: none;
+    font-size: 1.3rem;
+
+}
+#navbar ul li a{ 
+    
+    display: block;
+    padding: 5px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+#bimage{
+    margin:auto;
+
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding:  3px 200px;
+    height: 558px;
+    justify-content: center;
+    align-items: center;
+
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background: url("../Img/bimage.png");
+    background-size: cover;
+    height: 120%;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index:-1;
+    opacity: 0.89;
+
+}
+#home h1{
+    color:rgb(239, 8, 8);
+    background-color: blue;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+#home p{
+    color: chocolate;
+    background-color: black;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.btn{
+    padding: 6px 20px;
+    margin:5px;
+    border-radius: 2px solid white;
+    background-color: brown;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+
+#services{
+    display: flex;
+    margin:34px;
+}
+#services .box {
+    border: 2px solid tomato;
+    margin:20px;
+    padding: 15px;
+    border-radius: 23px;
+    border-color: black;
+    background-color:rgb(158, 203, 241)
+}
+#services .box img{
+    display: block;
+    border: 2px solid brown;
+    height: 80px;
+    margin: auto;
+}
+h1{
+    
+    text-align: center;
+    color:black;
+    font-size: 40px;
+    margin:34px;
+    
+}
+ #services .box h2{
+    display: block;
+    margin: auto;
+    text-align: center;
+ }
+ #services .box p{
+    display: block;
+    margin: auto;
+    text-align: center;
+ }
+ #clients-section{
+    height: 250px;
+    width: 100%;
+    background: url("../Img/ninth.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    opacity:0.7;
+    position: relative;
+ }
+ #clients{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height:20px;
+ }
+ .clients-item img{
+    height: 140px;
+    
+ }
+ .clients-item{
+    padding: 24px;
+    margin: 10px;
+ }
+ #contact{
+    
+    position: relative;
+
+ }
+ #contact::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background: url("../Img/tenth.jpg") no-repeat center center/cover;
+    z-index: -1;
+    opacity:0.7;
+ }
+ #contact-box input,#contact-box textarea{
+    width:100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1;
+    
+ }
+ #contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+    
+    
+ }
+ #contact-box form{
+    width:40%;
+
+    
+ }
+ #contact-box label{
+    font-size: 1.3rem;
+    font-family: 'Courier New', Courier, monospace;
+ }
+ footer{
+    text-align: center;
+    background-color: black;
+    color:white;
+
+ }
+ .center{
+    text-align: center;
+    background-color: black;
+    color:white;
+ }
+
+ 
+ 
+    
+
+
+ 
+
+
+
+
+
+
+
+
